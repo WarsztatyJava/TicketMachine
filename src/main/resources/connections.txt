@@ -1,0 +1,2 @@
+krakow,warszawa,kielce,wroclaw
+warszawa,Gdansk,wroclaw,Poznan
