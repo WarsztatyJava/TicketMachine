@@ -5,6 +5,7 @@
             "train": "Majchrowski",
             "leave": "09:18",
             "arrive": "14:15",
+            "targetCity": "Wroclaw",
             "stations": [
                 {
                     "name": "Katowice",
