@@ -1,5 +1,10 @@
+package model;
+
 import java.time.LocalTime;
 import java.util.List;
+
+import com.fasterxml.jackson.annotation.JsonCreator;
+import com.fasterxml.jackson.annotation.JsonProperty;
 
 public class Connection {
     private final String trainName;
@@ -7,8 +12,13 @@ public class Connection {
     private final LocalTime arrive;
     private final String targetCity;
     private final List<Station> stations;
-
-    public Connection(String trainName, LocalTime leave, LocalTime arrive, String targetCity, List<Station> stations) {
+@JsonCreator
+    public Connection(
+        @JsonProperty( "train") String trainName,
+        @JsonProperty("leave") LocalTime leave,
+        @JsonProperty("arrive") LocalTime arrive,
+        @JsonProperty("targetCity") String targetCity,
+        @JsonProperty("stations") List<Station> stations) {
         this.trainName = trainName;
         this.leave = leave;
         this.arrive = arrive;
