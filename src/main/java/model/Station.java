@@ -1,16 +1,25 @@
+package model;
+
 import java.time.LocalTime;
+
+import com.fasterxml.jackson.annotation.JsonCreator;
+import com.fasterxml.jackson.annotation.JsonProperty;
 
 public class Station {
     private final String stationName;
-    private final String stationCode;
     private final int kilometers;
     private final LocalTime leave;
     private final LocalTime arrive;
 
+    @JsonCreator
+    public Station(
+            @JsonProperty("name") String stationName,
+            @JsonProperty("kilometers") int kilometers,
+            @JsonProperty("leave") LocalTime leave,
+            @JsonProperty("arrive") LocalTime arrive)
+    {
 
-    public Station(String stationName, String stationCode, int kilometers, LocalTime leave, LocalTime arrive) {
         this.stationName = stationName;
-        this.stationCode = stationCode;
         this.kilometers = kilometers;
         this.leave = leave;
         this.arrive = arrive;
@@ -18,10 +27,6 @@ public class Station {
 
     public String getStationName() {
         return stationName;
-    }
-
-    public String getStationCode() {
-        return stationCode;
     }
 
     public int getKilometers() {
@@ -35,7 +40,6 @@ public class Station {
     public LocalTime getArrive() {
         return arrive;
     }
-
 
 }
 
