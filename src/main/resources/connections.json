@@ -1,0 +1,42 @@
+{
+    "city": "Krakow",
+    "conections": [
+        {
+            "train": "Majchrowski",
+            "leave": "09:18",
+            "arrive": "14:15",
+            "stations": [
+                {
+                    "name": "Katowice",
+                    "kilometers": 100,
+                    "arrive": "11:46",
+                    "leave": "11:56"
+                },
+                {
+                    "name": "Gliwice",
+                    "kilometers": 50,
+                    "arrive": "12:22",
+                    "leave": "12:24"
+                },
+                {
+                    "name": "Opole",
+                    "kilometers": 50,
+                    "arrive": "13:18",
+                    "leave": "13:20"
+                },
+                {
+                    "name": "Olawa",
+                    "kilometers": 50,
+                    "arrive": "13:55",
+                    "leave": "13:56"
+                },
+                {
+                    "name": "Wroclaw",
+                    "kilometers": 100,
+                    "arrive": "14:15",
+                    "leave": "14:20"
+                }
+            ]
+        }
+    ]
+}
