@@ -1,43 +1,174 @@
-{
-    "city": "Krakow",
-    "conections": [
-        {
-            "train": "Majchrowski",
-            "leave": "09:18",
-            "arrive": "14:15",
-            "targetCity": "Wroclaw",
-            "stations": [
-                {
-                    "name": "Katowice",
-                    "kilometers": 100,
-                    "arrive": "11:46",
-                    "leave": "11:56"
-                },
-                {
-                    "name": "Gliwice",
-                    "kilometers": 50,
-                    "arrive": "12:22",
-                    "leave": "12:24"
-                },
-                {
-                    "name": "Opole",
-                    "kilometers": 50,
-                    "arrive": "13:18",
-                    "leave": "13:20"
-                },
-                {
-                    "name": "Olawa",
-                    "kilometers": 50,
-                    "arrive": "13:55",
-                    "leave": "13:56"
-                },
-                {
-                    "name": "Wroclaw",
-                    "kilometers": 100,
-                    "arrive": "14:15",
-                    "leave": "14:20"
-                }
-            ]
-        }
-    ]
-}
+[
+    {
+        "city": "Krakow",
+        "conections": [
+            {
+                "train": "Majchrowski",
+                "leave": "09:18",
+                "arrive": "14:15",
+                "targetCity": "Wroclaw",
+                "stations": [
+                    {
+                        "name": "Katowice",
+                        "kilometers": 100,
+                        "arrive": "11:46",
+                        "leave": "11:56"
+                    },
+                    {
+                        "name": "Gliwice",
+                        "kilometers": 50,
+                        "arrive": "12:22",
+                        "leave": "12:24"
+                    },
+                    {
+                        "name": "Opole",
+                        "kilometers": 50,
+                        "arrive": "13:18",
+                        "leave": "13:20"
+                    },
+                    {
+                        "name": "Olawa",
+                        "kilometers": 50,
+                        "arrive": "13:55",
+                        "leave": "13:56"
+                    },
+                    {
+                        "name": "Wroclaw",
+                        "kilometers": 100,
+                        "arrive": "14:15",
+                        "leave": "14:20"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "city": "Warszawa",
+        "conections": [
+            {
+                "train": "Kaczynski",
+                "leave": "09:18",
+                "arrive": "14:15",
+                "targetCity": "Krakow",
+                "stations": [
+                    {
+                        "name": "Idzikowice",
+                        "kilometers": 100,
+                        "arrive": "11:46",
+                        "leave": "11:56"
+                    },
+                    {
+                        "name": "Opoczno",
+                        "kilometers": 50,
+                        "arrive": "12:22",
+                        "leave": "12:24"
+                    },
+                    {
+                        "name": "Wloszczowa",
+                        "kilometers": 50,
+                        "arrive": "13:18",
+                        "leave": "13:20"
+                    },
+                    {
+                        "name": "Miechow",
+                        "kilometers": 50,
+                        "arrive": "13:55",
+                        "leave": "13:56"
+                    },
+                    {
+                        "name": "Wroclaw",
+                        "kilometers": 100,
+                        "arrive": "14:15",
+                        "leave": "14:20"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "city": "Warszawa",
+        "conections": [
+            {
+                "train": "Niepodlegly",
+                "leave": "09:18",
+                "arrive": "14:15",
+                "targetCity": "Gdansk",
+                "stations": [
+                    {
+                        "name": "Legionowo",
+                        "kilometers": 100,
+                        "arrive": "11:46",
+                        "leave": "11:56"
+                    },
+                    {
+                        "name": "Modlin",
+                        "kilometers": 50,
+                        "arrive": "12:22",
+                        "leave": "12:24"
+                    },
+                    {
+                        "name": "Susz",
+                        "kilometers": 50,
+                        "arrive": "13:18",
+                        "leave": "13:20"
+                    },
+                    {
+                        "name": "Tczew",
+                        "kilometers": 50,
+                        "arrive": "13:55",
+                        "leave": "13:56"
+                    },
+                    {
+                        "name": "Gdansk",
+                        "kilometers": 100,
+                        "arrive": "14:15",
+                        "leave": "14:20"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "city": "Krakow",
+        "conections": [
+            {
+                "train": "Ukrainiec",
+                "leave": "09:18",
+                "arrive": "14:15",
+                "targetCity": "Przemysl",
+                "stations": [
+                    {
+                        "name": "Brzesko",
+                        "kilometers": 100,
+                        "arrive": "11:46",
+                        "leave": "11:56"
+                    },
+                    {
+                        "name": "Tarnow",
+                        "kilometers": 50,
+                        "arrive": "12:22",
+                        "leave": "12:24"
+                    },
+                    {
+                        "name": "Ropczyce",
+                        "kilometers": 50,
+                        "arrive": "13:18",
+                        "leave": "13:20"
+                    },
+                    {
+                        "name": "Rzeszow",
+                        "kilometers": 50,
+                        "arrive": "13:55",
+                        "leave": "13:56"
+                    },
+                    {
+                        "name": "Przemysl",
+                        "kilometers": 100,
+                        "arrive": "14:15",
+                        "leave": "14:20"
+                    }
+                ]
+            }
+        ]
+    }
+]
