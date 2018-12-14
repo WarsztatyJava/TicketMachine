@@ -4,19 +4,23 @@ import java.time.LocalTime;
 import java.util.List;
 
 import com.fasterxml.jackson.annotation.JsonCreator;
+import com.fasterxml.jackson.annotation.JsonFormat;
 import com.fasterxml.jackson.annotation.JsonProperty;
 
 public class Connection {
     private final String trainName;
-    private final LocalTime leave;
-    private final LocalTime arrive;
+//    @JsonFormat(pattern = "HH:mm")
+    private final String leave;
+//    @JsonFormat(pattern = "HH:mm")
+    private final String arrive;
     private final String targetCity;
     private final List<Station> stations;
-@JsonCreator
+
+    @JsonCreator
     public Connection(
         @JsonProperty( "train") String trainName,
-        @JsonProperty("leave") LocalTime leave,
-        @JsonProperty("arrive") LocalTime arrive,
+        @JsonProperty("leave") String leave,
+        @JsonProperty("arrive") String arrive,
         @JsonProperty("targetCity") String targetCity,
         @JsonProperty("stations") List<Station> stations) {
         this.trainName = trainName;
@@ -30,11 +34,11 @@ public class Connection {
         return trainName;
     }
 
-    public LocalTime getLeave() {
+    public String getLeave() {
         return leave;
     }
 
-    public LocalTime getArrive() {
+    public String getArrive() {
         return arrive;
     }
 
